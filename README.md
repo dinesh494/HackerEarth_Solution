@@ -169,3 +169,17 @@ int main() {
     cout << "u " << u << endl;
     return 0;
 }
+________________________________________________________________________________________________________________
+DSA 
+________________________
+1-D
+An array is a sequential collection of elements of same data type and stores data elements in a continuous memory location. The elements of an array are accessed by using an index. The index of an array of size N can range from 
+ to 
+. For example, if your array size is 
+, then your index will range from 0 to 4 (5-1). Each element of an array can be accessed by using 
+.
+
+Consider following array. The size of this array is 
+. If you want to access 
+. then you can access it by using arr[ 1 ] i.e.12
+
