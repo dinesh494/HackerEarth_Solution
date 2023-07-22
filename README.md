@@ -182,4 +182,64 @@ An array is a sequential collection of elements of same data type and stores dat
 Consider following array. The size of this array is 
 . If you want to access 
 . then you can access it by using arr[ 1 ] i.e.12
+Array declaration
 
+Declaring an array is language-specific.
+
+For example, in C/C++, to declare an array, you must specify, the following:
+
+Size of the array: This defines the number of elements that can be stored in the array.
+
+Type of array: This defines the type of each element i.e. number, character, or any other data type.
+
+A C++ example would be:
+
+int arr[5];
+This is a static array and the other kind is dynamic array, where type is just enough for declaration. In dynamic arrays, size increases as more elements are added to the array.
+
+Array Initialization:
+
+Array can be initialized either at the time of declaration or after that.
+
+The sample format if an array is initialized at the time of declaration is
+
+type arr[size] = {elements}
+The sample format of an array that is initialized in C++, is
+
+int arr[5] = {4, 12, 7, 15, 9};
+An array can be initialized after declaration by assigning values to each index of the array as follows
+
+ type arr[size]
+ arr[index] = 12
+C++ example:
+
+int arr[5];
+arr[0] = 4;
+arr[1] = 12;
+Processing an Array:
+
+The most basic form of processing an array is to loop over the array and print all its elements.
+
+A sample of processing an array by looping over the array and printing its elements is as follows:
+
+type arr[size] = {elements}
+for idx from 0 to size
+    print arr[idx]
+C++ example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Array declaration and initialization
+    int arr[5] = {4, 12, 7, 15, 9};
+    // Iterate over the array
+    for(int idx=0; idx<5; idx++)
+    {
+        // Print out each element in a new line
+        cout << arr[idx] << endl;
+    }
+    return 0;
+}
+___________________________________________________________________________________________
